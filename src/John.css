@@ -45,3 +45,33 @@
   animation: bounce-up-down 0.5s ease-in-out infinite alternate;
   animation-delay: 0.25s;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hand {
+    width: 240px;
+  }
+
+  .hand-left {
+    left: calc(50% - 480px);
+  }
+
+  .hand-right {
+    right: calc(50% - 480px);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .hand {
+    width: 120px;
+  }
+
+  .hand-left {
+    left: 0;
+  }
+
+  .hand-right {
+    right: 0;
+  }
+}

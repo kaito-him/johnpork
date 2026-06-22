@@ -10,6 +10,12 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+  .banner {
+    padding-top: 60px;
+  }
+}
+
 .banner section {
   width: 100%;
 }
@@ -20,6 +26,13 @@
   align-items: center;
   gap: 20px;
   margin-top: 80px;
+}
+
+@media (max-width: 600px) {
+  .btn-wrapper {
+    margin-top: 40px;
+    gap: 14px;
+  }
 }
 
 .btn-label {
